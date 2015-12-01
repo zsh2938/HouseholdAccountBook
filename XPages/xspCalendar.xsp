@@ -48,11 +48,14 @@
 				</xp:parameter>
 			</xp:this.attributes>
 		</xp:headTag>
-		<xp:script src="/calendarApp.js" clientSide="true"></xp:script>
+		<xp:script src="/csjsCalendarApp.js" clientSide="true"></xp:script>
 		<xp:styleSheet href="/calendarApp.css"></xp:styleSheet>
+		<xp:script src="/reportLib.jss" clientSide="false"></xp:script>
 	</xp:this.resources>
+
 	<xc:ccPageTemplate>
 		<xp:this.facets>
+			<xc:ccFooter xp:key="facet_3"></xc:ccFooter>
 			<xc:ccMenu xp:key="facet_1"></xc:ccMenu>
 			<xc:ccCalendarApp xp:key="facet_2"></xc:ccCalendarApp>
 		</xp:this.facets>
